@@ -14,20 +14,20 @@
 /* Clase Taxi */
 class Taxi {
 
-    private $chofer;
-    private $matricula;
+    private $_chofer;
+    private $_matricula;
 
     public function Taxi(Chofer $chofer, $matricula) {
-        $this->chofer = $chofer;
-        $this->matricula = $matricula;
+        $this->_chofer = $chofer;
+        $this->_matricula = $matricula;
     }
 
     public function printMatricula() {
-        echo $this->matricula;
+        echo $this->_matricula;
     }
 
     public function printChofer() {
-        $nombreChofer = $this->chofer->getNombre();
+        $nombreChofer = $this->_chofer->getNombre();
         echo $nombreChofer;
     }
 

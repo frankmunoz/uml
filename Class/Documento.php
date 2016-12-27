@@ -14,14 +14,14 @@
 /* Clase Documento */
 class Documento {
 
-    private $texto;
+    private $_texto;
 
     public function Documento($texto) {
-        $this->texto = $texto;
+        $this->_texto = $texto;
     }
 
     public function getTexto() {
-        return $this->texto;
+        return $this->_texto;
     }
 
 }

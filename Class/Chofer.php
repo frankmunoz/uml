@@ -14,14 +14,14 @@
 /* Clase Chofer */
 class Chofer {
 
-    private $nombre;
+    private $_nombre;
 
     public function setNombre($nombre) {
-        $this->nombre = $nombre;
+        $this->_nombre = $nombre;
     }
 
     public function getNombre() {
-        return $this->nombre;
+        return $this->_nombre;
     }
 
 }

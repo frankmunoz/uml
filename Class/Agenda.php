@@ -14,19 +14,19 @@
 /* Clase Agenda */
 class Agenda {
 
-    private $_contactos = array();
+    private $_contactoCollection = [];
 
     public function __construct() {
         
     }
 
     public function addContacto(Contacto $contacto) {
-        $this->_contactos[] = $contacto;
+        $this->_contactoCollection[] = $contacto;
     }
 
     public function printContacto() {
         echo "<pre>";
-        print_r($this->_contactos);
+        print_r($this->_contactoCollection);
         echo "</pre>";
     }
 }
