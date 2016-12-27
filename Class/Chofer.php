@@ -16,7 +16,7 @@ class Chofer {
 
     private $nombre;
 
-    public function Chofer($nombre) {
+    public function setNombre($nombre) {
         $this->nombre = $nombre;
     }
 
