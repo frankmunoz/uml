@@ -11,4 +11,7 @@ $miTaxi = new Taxi($miChofer, "AHJ-1050");
 echo "Matricula:";
 echo $miTaxi->printMatricula();
 echo "<hr>Chofer: ";
-echo $miTaxi->printChofer();
+$miTaxi->printChofer();
+echo "<hr>";
+?>
+<img src="uml-relacion-asociacion-ejemplo.jpg" alt=""/>

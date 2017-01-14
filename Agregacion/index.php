@@ -13,3 +13,5 @@ $miAgenda->addContacto(new Contacto("Pepe", "3-21-54-87"));
 $miAgenda->addContacto(new Contacto("Juan", "3-32-65-98"));
 $miAgenda->addContacto(new Contacto("Luis", "3-78-13-46"));
 $miAgenda->printContacto();
+?>
+<img src="uml-relacion-agregacion-composicion-ejemplo.jpg" alt=""/>

@@ -8,3 +8,5 @@ require_once '../Class/Impresora.php';
 $miDocumento = new Documento("Hello World!");
 $miImpresora = new Impresora();
 $miImpresora->imprimir($miDocumento);
+?>
+<br><img src="uml-relacion-dependencia-ejemplo.jpg" alt=""/>
