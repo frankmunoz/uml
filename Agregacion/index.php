@@ -1,9 +1,7 @@
 <?php
 
-require_once("../Class/Agenda.php");
-require_once("../Class/Contacto.php");
-
-//http://www.didierperez.com/2012/02/diagrama-de-clases-uml-agregacion-y-composicion/
+require_once("../Class/Agregacion/Agenda.php");
+require_once("../Class/Agregacion/Contacto.php");
 
 /* Creamos una instancia de Agenda */
 $miAgenda = new Agenda();
@@ -15,3 +13,4 @@ $miAgenda->addContacto(new Contacto("Luis", "3-78-13-46"));
 $miAgenda->printContacto();
 ?>
 <img src="uml-relacion-agregacion-composicion-ejemplo.jpg" alt=""/>
+<br><a href="http://www.didierperez.com/2012/02/diagrama-de-clases-uml-agregacion-y-composicion/">Agregacion</a>
